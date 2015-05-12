@@ -19,7 +19,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "bower-asset/jquery": "2.1.*@stable | 1.11.*@stable",
-        "bower-asset/bootstro": "@dev"
+        "bower-asset/bootstro": "*"
     },
     "autoload": {
         "psr-4": {
