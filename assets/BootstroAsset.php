@@ -6,17 +6,15 @@ use yii\web\AssetBundle;
 
 class BootstroAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/bootstro';
+    public $sourcePath = '@vendor/datalayerru/bootstro-widget-yii2/assets/bootstro.js-master';
     public $css        = [
-        'bootstro.css'
+        'bootstro.min.css'
     ];
     public $js         = [
         'bootstro.min.js'
     ];
     public $depends    = [
-        'datalayerru\ScheduleWidget\assetbundles\AngularAsset',
-        'datalayerru\ScheduleWidget\assetbundles\UITreeAsset',
-        'datalayerru\ScheduleWidget\assetbundles\CssElementQueriesAsset'
+        'yii\web\YiiAsset'
     ];
 
 }

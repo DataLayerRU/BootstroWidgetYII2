@@ -1,6 +1,6 @@
 <?php
 
-namespace datalayerru\ScheduleWidget;
+namespace datalayerru\BootstroWidget;
 
 class BootstroWidget extends \yii\base\Widget
 {

@@ -1,6 +1,6 @@
 {
     "name": "datalayerru/bootstro-widget-yii2",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Wrapper for bootstro.js",
     "keywords": ["yii2", "bootstro", "bootstro.js", "bootstro asset"],
     "type": "yii2-extension",
@@ -18,8 +18,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/jquery": "2.1.*@stable | 1.11.*@stable",
-        "bower-asset/bootstro": "@dev"
+        "bower-asset/jquery": "2.1.*@stable | 1.11.*@stable"
     },
     "autoload": {
         "psr-4": {
