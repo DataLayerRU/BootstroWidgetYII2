@@ -1,7 +1,37 @@
 # BootstroWidgetYII2
 [Yii2](http://www.yiiframework.com/) widget. Wrapper for [Bootstro.js](http://clu3.github.io/bootstro.js/)
 
+## Composer
 
+BootstroWidgetYII2 is available through [composer](https://getcomposer.org/)
+
+  composer require datalayerru/bootstro-widget-yii2 "dev-master"
+  
+Alternatively you can add the following to the `require` section in your `composer.json` manually:
+
+```json
+"datalayerru/bootstro-widget-yii2": "dev-master"
+```
+
+Run `composer update` afterwards.
+
+### In your PHP project
+```php
+use datalayerru\BootstroWidget\BootstroWidget;
+
+<?=
+BootstroWidget::widget([
+    'startSelector' => '.bootstro',
+    'pluginOptions' => [
+        'nextButtonText' => 'Next',
+        'finishButtonText' => 'Back',
+        'finishButtonText' => 'Complete',
+        'onComplete' => new JsExpression('function(){setTourIsCompleted();}'),
+        'onExit' => new JsExpression('function(){setTourIsCompleted();}')
+    ]
+]);
+?>
+```
 
 ## Dependencies
 - [Yii2](http://www.yiiframework.com/)
