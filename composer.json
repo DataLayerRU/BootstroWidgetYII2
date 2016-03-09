@@ -1,19 +1,19 @@
 {
-    "name": "datalayerru/bootstro-widget-yii2",
-    "version": "0.1.2",
+    "name": "professionalweb/bootstro-widget-yii2",
+    "version": "0.1.3",
     "description": "Wrapper for bootstro.js",
-    "keywords": ["yii2", "bootstro", "bootstro.js", "bootstro asset"],
+    "keywords": ["yii2", "bootstro", "bootstro.js", "bootstro asset", "professional web"],
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "email": "info@datalayer.ru",
-        "source": "https://github.com/DataLayerRU/BootstroWidgetYII2"
+        "email": "info@web-development.pw",
+        "source": "https://github.com/SergioMadness/BootstroWidgetYII2"
     },
     "authors": [
         {
             "name": "Sergey Zinchenko",
-            "email": "info@datalayer.ru",
-            "homepage": "http://datalayer.ru"
+            "email": "info@web-development.pw",
+            "homepage": "http://web-development.pw"
         }
     ],
     "require": {
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "datalayerru\\BootstroWidget\\": ""
+            "professionalweb\\BootstroWidget\\": ""
         }
     }
 }
