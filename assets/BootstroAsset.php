@@ -1,12 +1,12 @@
 <?php
 
-namespace datalayerru\BootstroWidget\assets;
+namespace professionalweb\BootstroWidget\assets;
 
 use yii\web\AssetBundle;
 
 class BootstroAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/datalayerru/bootstro-widget-yii2/assets/bootstro.js-master';
+    public $sourcePath = '@vendor/professionalweb/bootstro-widget-yii2/assets/bootstro.js-master';
     public $css        = [
         'bootstro.min.css'
     ];

@@ -4,7 +4,7 @@
 /* @var $startSelector string */
 
 use yii\helpers\Json;
-use datalayerru\BootstroWidget\assets\BootstroAsset;
+use professionalweb\BootstroWidget\assets\BootstroAsset;
 
 BootstroAsset::register($this);
 
