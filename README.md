@@ -5,19 +5,19 @@
 
 BootstroWidgetYII2 is available through [composer](https://getcomposer.org/)
 
-    composer require datalayerru/bootstro-widget-yii2 "dev-master"
+    composer require professionalweb/bootstro-widget-yii2 "dev-master"
   
 Alternatively you can add the following to the `require` section in your `composer.json` manually:
 
 ```json
-"datalayerru/bootstro-widget-yii2": "dev-master"
+"professionalweb/bootstro-widget-yii2": "dev-master"
 ```
 
 Run `composer update` afterwards.
 
 ### In your PHP project
 ```php
-use datalayerru\BootstroWidget\BootstroWidget;
+use professionalweb\BootstroWidget\BootstroWidget;
 
 <?=
 BootstroWidget::widget([
@@ -41,7 +41,7 @@ BootstroWidget::widget([
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Sergey Zinchenko, DataLayer.ru
+Copyright (c) 2016 Sergey Zinchenko, [Professional web](http://web-development.pw/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
